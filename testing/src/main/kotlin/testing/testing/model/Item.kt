@@ -1,4 +1,4 @@
-package testing.testing
+package testing.testing.model
 
 data class Item (
     val nombre: String,

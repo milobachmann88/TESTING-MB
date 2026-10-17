@@ -1,7 +1,6 @@
-package testing.testing
+package testing.testing.service
 
-import io.kotest.core.spec.style.BehaviorSpec
-import io.kotest.matchers.shouldBe
+import testing.testing.model.Item
 
 class TestDeOrdenDeCompra: BehaviorSpec ({
     Given("una orden de compra cuya suma de items resulta en 100 y el costo de la manteca es de 20") {

@@ -1,4 +1,6 @@
-package testing.testing
+package testing.testing.service
+
+import testing.testing.model.Item
 
 class OrdenDeCompra {
     private val items = mutableListOf<Item>()
