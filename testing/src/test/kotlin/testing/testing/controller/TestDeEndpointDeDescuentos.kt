@@ -1,7 +1,8 @@
-package etec.testing.controller
+package testing.testing.controller
 
 import com.ninjasquad.springmockk.MockkBean
 import testing.testing.service.CalculadoraDeDescuentos
+import testing.testing.controller.DescuentosEndpoint
 import io.kotest.core.spec.style.BehaviorSpec
 import io.mockk.every
 import org.springframework.boot.webmvc.test.autoconfigure.WebMvcTest
